@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/breach/static/css/main.e0a1a229.chunk.css",
-    "main.js": "/breach/static/js/main.e73989f1.chunk.js",
-    "main.js.map": "/breach/static/js/main.e73989f1.chunk.js.map",
+    "main.css": "/breach/static/css/main.af1f3df1.chunk.css",
+    "main.js": "/breach/static/js/main.46fa7e50.chunk.js",
+    "main.js.map": "/breach/static/js/main.46fa7e50.chunk.js.map",
     "runtime-main.js": "/breach/static/js/runtime-main.a19631ed.js",
     "runtime-main.js.map": "/breach/static/js/runtime-main.a19631ed.js.map",
     "static/js/2.35081703.chunk.js": "/breach/static/js/2.35081703.chunk.js",
     "static/js/2.35081703.chunk.js.map": "/breach/static/js/2.35081703.chunk.js.map",
     "index.html": "/breach/index.html",
-    "precache-manifest.42a2fac5532c8d3f7b5767733c80f363.js": "/breach/precache-manifest.42a2fac5532c8d3f7b5767733c80f363.js",
+    "precache-manifest.9dfb03f4c6a2e40a61964309e83be9ce.js": "/breach/precache-manifest.9dfb03f4c6a2e40a61964309e83be9ce.js",
     "service-worker.js": "/breach/service-worker.js",
-    "static/css/main.e0a1a229.chunk.css.map": "/breach/static/css/main.e0a1a229.chunk.css.map",
+    "static/css/main.af1f3df1.chunk.css.map": "/breach/static/css/main.af1f3df1.chunk.css.map",
     "static/js/2.35081703.chunk.js.LICENSE.txt": "/breach/static/js/2.35081703.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a19631ed.js",
     "static/js/2.35081703.chunk.js",
-    "static/css/main.e0a1a229.chunk.css",
-    "static/js/main.e73989f1.chunk.js"
+    "static/css/main.af1f3df1.chunk.css",
+    "static/js/main.46fa7e50.chunk.js"
   ]
 }
