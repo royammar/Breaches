@@ -2,15 +2,15 @@ import React from "react";
 import './styles/global.scss';
 import BreachPage from './pages/BreachPage'
 import BreachDetails from './pages/BreachDetails'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { createHashHistory } from 'history';
 import BreachContextProvider from "./context/BreachContext";
 import NavBar from "./cmps/NavBar";
 import Footer from "./cmps/Footer";
 
 
 
-const history = createBrowserHistory();
+const history = createHashHistory();
 function App() {
 
   return (

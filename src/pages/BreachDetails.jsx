@@ -36,7 +36,7 @@ export default function BreachDetails(props) {
     <div className={`flex column flex1 container top-padding details`}>
       {breach?
       <React.Fragment>
-      <div className="flex item-title-wrapper">
+      <div className="flex item-title-wrapper wrap">
       <img  className="item-image" src={breach.LogoPath} alt="" />
       <h3 className="item-title">{breach.Domain ||breach.Name}</h3>
       </div>

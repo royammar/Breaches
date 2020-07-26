@@ -4,14 +4,13 @@ var Axios = axios.create({
     withCredentials: true, 
     headers: {
         'X-Best-Pokemon': 'Pikachu',
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': '*'
     }
 });
 
 
 export default {
     getBreaches,
-
 }
 
 
