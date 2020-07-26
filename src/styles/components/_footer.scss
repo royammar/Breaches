@@ -1,0 +1,32 @@
+.footer {
+  height: 80px;
+  bottom: 0;
+  background: linear-gradient(to right, #000000, #434343);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: sticky;
+  .rights {
+    text-transform: uppercase;
+    color:$clr2;
+    font-weight: bold;
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.fa {
+  color: royalblue;
+}
+
+.in {
+  color: red;
+}
+
+.footer-wrapper {
+  width: 80vw;
+}

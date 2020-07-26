@@ -24,10 +24,32 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Breach App</title>
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script> function detectColorScheme(){
+      let theme="light";   
+      if(JSON.parse(localStorage.getItem('theme'))){
+        let userTheme=JSON.parse(localStorage.getItem('theme'))
+        if(userTheme=== 'dark'){
+          theme = 'dark';
+          }
+      } else if(window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          //OS theme setting detected as dark
+           theme = "dark";
+      }
+  
+      //dark theme preferred, set document with a `data-theme` attribute
+      if (theme==="dark") {
+           document.documentElement.setAttribute("data-theme", "dark");
+      }
+  }
+ 
+    detectColorScheme();
+  
+  </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
