@@ -1,6 +1,6 @@
 {
   "name": "data-breach",
-  "hamepage":"https://royammar.github.io/Breaches",
+  "homepage":"https://royammar.github.io/Breaches",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
