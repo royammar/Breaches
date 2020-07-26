@@ -3,7 +3,6 @@ import { BreachContext } from "../context/BreachContext";
 import StorageService from "../services/StorageService";
 
 export default function BreachDetails(props) {
-
   const { breaches, dispatch } = useContext(BreachContext);
   const [breach, setBreach] = useState(null);
 
@@ -24,7 +23,6 @@ export default function BreachDetails(props) {
   }
 
   useEffect(() => {
-    
     dispatch({ type: "SET_LOAD" });
     loadItem();
     return () => {
@@ -34,26 +32,30 @@ export default function BreachDetails(props) {
 
   return (
     <div className={`flex column flex1 container top-padding details`}>
-      {breach?
-      <React.Fragment>
-      <div className="flex item-title-wrapper wrap">
-      <img  className="item-image" src={breach.LogoPath} alt="" />
-      <h3 className="item-title">{breach.Domain ||breach.Name}</h3>
-      </div>
-      <hr/>
-      <div className="item-date">Breach Date: {breach.BreachDate}</div>
-      <p className="item-description flex1" dangerouslySetInnerHTML={{__html: breach.Description}}/>
-        <div className="data-classes"> Impacted data classes : 
-      {breach.DataClasses.map((DataClass,index) => (
-        <p  key={index} className="item">
-         {DataClass}
-        </p>
-      ))}
-      </div>
-      </React.Fragment>
-      :
-      <div>No Details To show</div>
-      }
+      {breach ? (
+        <React.Fragment>
+          <div className="flex item-title-wrapper wrap">
+            <img className="item-image" src={breach.LogoPath} alt="" />
+            <h3 className="item-title">{breach.Domain || breach.Name}</h3>
+          </div>
+          <hr />
+          <div className="item-date">Breach Date: {breach.BreachDate}</div>
+          <p
+            className="item-description flex1"
+            dangerouslySetInnerHTML={{ __html: breach.Description }}
+          />
+          <div className="data-classes">
+            Impacted data classes :
+            {breach.DataClasses.map((DataClass, index) => (
+              <p key={index} className="item">
+                {DataClass}
+              </p>
+            ))}
+          </div>
+        </React.Fragment>
+      ) : (
+        <div>No Details To show</div>
+      )}
     </div>
   );
 }

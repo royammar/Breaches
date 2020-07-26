@@ -1,14 +1,14 @@
 .footer {
-  height: 80px;
+  height: 55px;
   bottom: 0;
   background: linear-gradient(to right, #000000, #434343);
   display: flex;
   justify-content: center;
   align-items: center;
-position: sticky;
+  position: sticky;
   .rights {
     text-transform: uppercase;
-    color:$clr2;
+    color: $clr2;
     font-weight: bold;
   }
 }

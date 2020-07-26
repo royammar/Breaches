@@ -1,29 +1,26 @@
-.card{
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-    margin: 10px;
+.card {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  margin: 10px;
 
-    img{
-    height: 50px;;
+  img {
+    height: 50px;
+    max-width: 50%;
     @include for-mobile-layout {
-        max-width: 108px;
+      max-width: 108px;
     }
-    
+  }
+  .domain {
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  .card-info {
+    width: 100%;
+    margin-top: 30px;
+    .card-info-item {
+      text-align: left;
+      margin-left: 10px;
     }
-    .domain{
-      font-weight: bolder;
-      text-transform: uppercase;
-
-    }
-
-    .card-info{
-        width: 100%;
-        margin-top: 30px;
-        .card-info-item{
-            text-align: left;
-            margin-left: 10px;
-        }
-
-    }
-
+  }
 }
