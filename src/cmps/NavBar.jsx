@@ -31,14 +31,14 @@ export default function NavBar() {
   return (
     <div className={`nav-bar container flex`}>
       <div className={`center-side-nav flex column align-center `}>
-        <NavLink className="section selected" to="/" exact>
+        <NavLink className="section selected" to="/breach" exact>
           <li>Home</li>
         </NavLink>
-        <NavLink className="section selected" to="/" exact>
+        <NavLink className="section selected" to="/breach" exact>
           <li>Breaches</li>
         </NavLink>
       
-        <NavLink  className="section selected" to="/" exact>
+        <NavLink  className="section selected" to="/breach" exact>
           <li>FAQ</li>
         </NavLink>
       </div>

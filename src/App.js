@@ -18,7 +18,7 @@ function App() {
     <NavBar></NavBar>
       <BreachContextProvider>
         <Switch>
-          <Route path="/" component={BreachPage} exact></Route>
+          <Route path="/breach" component={BreachPage} exact></Route>
           <Route path="/breach/:id" component={BreachDetails} exact></Route>
         </Switch>
       </BreachContextProvider>
