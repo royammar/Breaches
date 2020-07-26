@@ -10,7 +10,9 @@ import Footer from "./cmps/Footer";
 
 
 
-const history = createHashHistory();
+const history = createHashHistory({
+  hashType: 'slash',
+});
 function App() {
 
   return (
