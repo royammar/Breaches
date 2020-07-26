@@ -1,9 +1,9 @@
 import React from "react";
 import './styles/global.scss';
-import BreachPage from './pages/BreachPage'
-import BreachDetails from './pages/BreachDetails'
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { createHashHistory } from 'history';
+import BreachPage from './pages/BreachPage'
+import BreachDetails from './pages/BreachDetails'
 import BreachContextProvider from "./context/BreachContext";
 import NavBar from "./cmps/NavBar";
 import Footer from "./cmps/Footer";
