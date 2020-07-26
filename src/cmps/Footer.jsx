@@ -7,13 +7,13 @@ export default function Footer() {
       <div className="footer-wrapper flex space-between">
         <div className="rights">All rights reserved</div>
         <div className="icons flex ">
-          <a href="https://www.facebook.com">
+          <a className="flex align-center" href="https://www.facebook.com">
             <FaFacebookSquare className="icon fa" />
           </a>
-          <a href="https://www.instagram.com">
+          <a className="flex align-center" href="https://www.instagram.com">
             <FaInstagram className="icon in" />
           </a>
-          <a href="https://www.linkedin.com/in/roy-amar-9b848224/">
+          <a className="flex align-center" href="https://www.linkedin.com/in/roy-amar-9b848224/">
             <FaLinkedin className="icon fa" />
           </a>
         </div>
