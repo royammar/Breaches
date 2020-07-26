@@ -7,7 +7,8 @@ export default function BreachPreview({ breach }) {
   
   return (
      <Link className="card flex column align-center " to={`/breach/${breach.PwnCount}`}> 
-      <img className="card-image" src={breach.LogoPath} alt="" />
+      <div>  <img className="card-image" src={breach.LogoPath} alt="" />
+      </div>
       <div className="card-info">
       <div className="flex justify-center">
       <p className="domain" id="title" >{breach.Domain ||breach.Name}  </p>

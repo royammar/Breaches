@@ -5,9 +5,16 @@
 
     img{
     height: 50px;;
-    max-width: 100px;
+    @include for-mobile-layout {
+        max-width: 108px;
     }
+    
+    }
+    .domain{
+      font-weight: bolder;
+      text-transform: uppercase;
 
+    }
 
     .card-info{
         width: 100%;
